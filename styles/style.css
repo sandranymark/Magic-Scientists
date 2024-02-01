@@ -1,13 +1,47 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-img {
-    width: 300px;
-    aspect-ratio: 1;
-    position: absolute;
-}
-
-/* Koden ovanför är obligatorisk. Ereventuella CSS skriver ni nedanför denna kommentar */
+  }
+  
+  img {
+      width: 200px;
+      aspect-ratio: 1;
+      position: absolute;
+  }
+  
+  /* Koden ovanför är obligatorisk. Ereventuella CSS skriver ni nedanför denna kommentar */
+  
+  
+  main form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5rem;
+  
+  }
+  
+  .f-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 5px;
+      width: 30%;
+  
+  }
+  
+  
+  button {
+      width: 30%;
+      padding: 5px 2px;
+      margin-top: 10px;
+  }
+  
+  main input {
+      padding: 5px;
+  }
+  
+  .d-none {
+      display: none;
+  }
